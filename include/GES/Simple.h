@@ -5,10 +5,10 @@
 #ifndef SIMPLE_SIMPLE_H
 #define SIMPLE_SIMPLE_H
 
-#include "../../GES/src/Application.h"
+#include "Application.h"
 
 // ---- Entry point ------------------------
-#include "../../GES/src/EntryPoint.hpp"
+#include "EntryPoint.hpp"
 // -----------------------------------------
 
 

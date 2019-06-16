@@ -5,7 +5,7 @@
 #ifndef SIMPLE_ENTRYPOINT_HPP
 #define SIMPLE_ENTRYPOINT_HPP
 
-#include "Application.h"
+#include "GES/Application.h"
 
 GES::Application* GES::createApplication();
 
