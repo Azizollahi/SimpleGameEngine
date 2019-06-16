@@ -1,6 +1,6 @@
 project('SandBox')
 
-set(CPP_FILES src/main.cpp)
+set(CPP_FILES src/SandBoxApp.cpp)
 set(CPP_HEADER_FILES )
 
 

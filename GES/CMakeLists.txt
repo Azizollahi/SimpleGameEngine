@@ -2,8 +2,8 @@ project('GES')
 
 include_directories("../include/GES")
 
-set(CPP_FILES src/Test.cpp)
-set(CPP_HEADER_FILES ../include/GES/Test.h)
+set(CPP_FILES src/Application.cpp)
+set(CPP_HEADER_FILES ../include/GES/Test.h ../include/GES/Simple.h src/Application.h src/EntryPoint.hpp)
 
 add_library(GES SHARED ${CPP_FILES} ${CPP_HEADER_FILES})
 

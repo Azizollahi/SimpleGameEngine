@@ -5,13 +5,15 @@
 #ifndef SIMPLE_TEST_H
 #define SIMPLE_TEST_H
 
+namespace Simple {
+	class Test {
 
-class Test {
+	public:
+		void print();
 
-public:
-	void print();
+	};
+}
 
-};
 
 
 #endif //SIMPLE_TEST_H
