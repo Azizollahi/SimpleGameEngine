@@ -5,7 +5,7 @@
 #ifndef SIMPLE_APPLICATION_H
 #define SIMPLE_APPLICATION_H
 
-namespace Simple {
+namespace GES {
 	class Application {
 	public:
 
@@ -15,6 +15,7 @@ namespace Simple {
 		void run();
 
 	};
+	extern Application* createApplication();
 }
 
 

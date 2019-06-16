@@ -7,5 +7,6 @@
 
 #include "Application.h"
 
+GES::Application* GES::createApplication();
 
 #endif //SIMPLE_ENTRYPOINT_HPP

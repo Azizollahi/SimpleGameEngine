@@ -1,7 +1,7 @@
 #include <iostream>
 #include <GES/Simple.h>
 
-class SandBox : public Simple::Application{
+class SandBox : public GES::Application{
 public:
 	SandBox(){
 
@@ -13,8 +13,8 @@ public:
 
 };
 
-int main(int argc, char** argv){
-	auto sandbox = new SandBox();
-	sandbox->run();
-	delete sandbox;
+
+
+GES::Application* GES::createApplication() {
+	return new SandBox();
 }
