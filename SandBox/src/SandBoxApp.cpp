@@ -1,5 +1,5 @@
 #include <iostream>
-#include <GES/Simple.h>
+#include <GES/GES.h>
 
 class SandBox : public GES::Application{
 public:
@@ -12,8 +12,6 @@ public:
 	}
 
 };
-
-
 
 GES::Application* GES::createApplication() {
 	return new SandBox();
